@@ -1,6 +1,6 @@
 import express, { json, urlencoded } from "express";
 import { config } from "dotenv";
-import connectdb from "./db.js"
+import connectdb from "./helpers/db.js"
 
 config();
 
